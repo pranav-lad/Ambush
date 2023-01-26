@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambush</title>
+    <!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link type="text/css" rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light d-flex center justify-content-center fixed-top text-light" style="background: rgb(100, 172, 52); box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;">
+        <!-- <a class="navbar-brand mr-3" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="ml-md-5 p-10 pl-20 nav-item nav-link active" href="#" style="margin-left: 20px;">Home <span class="sr-only">(current)</span></a>
+            <a class="p-30 nav-item nav-link" href="#about">About</a>
+            <a class="p-30 nav-item nav-link" href="#moto">Moto</a>
+            <a class="p-30 nav-item nav-link" href="#contact">Contact</a>
+            <!-- <a class="p-10 nav-item nav-link disabled" href="#">Contact</a> -->
+          </div>
+        </div>
+      </nav>
+<!-- <nav>
+  <ul style="
+  background: white;
+  color: green;
+">
+    <li><a href="/home">HOME</a></li>
+    <li><a href="/forum">FORUM</a></li>
+    <li><a href="/shop">SHOP</a></li>
+    <li><a href="/vote">VOTE</a></li>
+  </ul>
+</div>
+</nav> -->
+<!--MAIN-->
+<main>  
+    <div class="divisions division_1 flex" style=" height: 100vh; ">
+        <section class="flex-content">
+            <article>
+                <img src="https://i.postimg.cc/fLdH6vYv/logo.png" alt="VectorStock" style="border-radius: 0%;">
+                <h1 class="title" style="color: white; margin-top: 20px;">TEAM<em> AMBUSH</em></h1>
+                <p style="color: white;">conceptualize, design, fabricate & test a Self - Propelled Automated Multi - Vegetable Transplanter </p>
+                <a href="#contact" class="btn btn_1" style="color: white;border: 3px solid rgb(139, 139, 139);">Contact Us</a>
+            </article>
+        </section>
+    </div>
+    <style>
+        .green-section{
+            display: flex;
+            flex-wrap: wrap;
+            background: linear-gradient(to bottom, #000000, rgb(87, 156, 79));
+            color: white;
+            /* clip-path: polygon(25% 0%, 77% 0, 100% 20%, 100% 100%, 0 100%, 0 19%); */
+            padding: 40px 10px;
+            margin-bottom: 40px;
+        }
+        .green-section .left{
+            flex-grow: 3;
+            width: 50%;
+            /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+        }
+        .green-section .right{
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right img{
+            border-radius: 50%;
+            /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+        }
+        .right{
+            /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            border-radius: 50%; */
+            margin-right: 20px;
+
+        }
+        .left p{
+            padding: 30px;
+            color: white;
+        }
+        @media only screen and (max-width: 500px) {
+            .green-section{
+                flex-direction: column-reverse;
+                width: 100%;
+            }
+            .green-section .left{
+                width: 100%;
+                flex-grow: 1;
+            }
+            /* nav {
+                display: none;
+            } */
+        }
+    </style>
+    <div class="green-section">
+        <div class="left">
+            <p>We participate and compete in a National Level Competition SAE TIFAN (“Technology Innovation Forum for Agricultural Nurturing”) organized by SAE INDIA under SAE INDIA Off - Highway Board; and is one of the most popular agri - tech events in the country where student teams from all over the nation participate every year to display their prototypes, projects and ideas on a particular theme at Mahatma Phule Krishi Vidyapeeth, Ahmednagar.</p>
+        </div>
+        <div class="right">
+            <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_img0.jpg" alt="">
+        </div>
+    </div>
+    <div class="divisions division_2 flex slider">
+        <section class="flex-content slide-track">
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn6.png" height="200" alt="" />
+            </figure>
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn11.png" height="200" alt="" />
+            </figure>
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn3.png" height="200" alt="" />
+            </figure>
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn8.png" height="200" alt="" />
+            </figure>
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn7.png" height="200" alt="" />
+            </figure>
+            <figure class="slide">
+                <img src="http://mechanical.pccoepune.com/clubs/img/teamambush/ta_imgn1.png" height="200" alt="" />
+            </figure>
+        </section>
+    </div>
+    <div class="divisions division_3 flex " style="margin-top: 100px;" id="about">
+        <section class="flex-content padding_4x">
+            <article class="fixed_flex padding_1x">
+                <span>
+                    <i class="fa fa-leaf padding_2x"></i>
+                </span>
+                <aside class="padding_1x">
+                    <p><em><b>Team Goal:</b> </em>
+                        To make timely technological advancements in the existing farming techniques and encourage the farmers to adopt the same in order to increase the overall productivity and quality with less inputs. Thus, bridging the gap between conventional farming methodologies and mechanized solutions. </p>
+                </aside>
+            </article>
+            <article class="fixed_flex padding_1x">
+                <span>
+                    <i class="fa fa-tree padding_2x"></i>
+                </span>
+                <aside class="padding_1x">
+                    <p><em><b>Team Objective:</b></em>
+                        To acquire the desired skill set and technical soundness while contributing to a larger cause and thus developing as a nation.</p>
+                </aside>
+            </article>
+        </section>
+        <section class="flex-content padding_2x">
+            <h2 class="sub-title">About <em>AMBUSH</em></h2>
+            <p>Team Ambush is a group of undergraduate students from diverse streams studying at Pimpri Chinchwad College of Engineering, Pune, striving to bring change in the agriculture domain. </p>
+            <p>We aim to conceptualize, design, fabricate & test a “Self - Propelled Automated Multi - Vegetable Transplanter”. We are team with an ideology and goal to “Innovate & Mechanize the field of Agriculture in India”.</p>
+        </section>
+    </div>
+    <div class="divisions division_4 flex" id="moto">
+        <section class="flex-content padding_2x">
+            <article>
+                <h2 class="sub-title">What <em>AMBUSH</em> stands for</h2>
+                
+                <!-- <a href="#" class="btn btn_2">Contact us</a> -->
+            </article>
+        </section>
+        <section class="flex-content padding_2x">
+            <article class="padding_2x">
+                <p>We participate and compete in a National Level Competition SAE TIFAN (“Technology Innovation Forum for Agricultural Nurturing”) organized by SAE INDIA under SAE INDIA Off - Highway Board; and is one of the most popular agri - tech events in the country where student teams from all over the nation participate every year to display their prototypes, projects and ideas on a particular theme at Mahatma Phule Krishi Vidyapeeth, Ahmednagar.
+</p><p>
+                    We exhibit the prototype at other premier exhibitions such as KISAN & KRUSHI MAHOTSAV with the aim of interacting with the farmers, to make a survey of the challenges faced by the farming community and develop industrial contacts.
+                    
+                    The team was founded in 2017 and has successfully designed & manufactured serval Self - Propelled Onion Harvesters by putting the theoretical knowledge into test practically in order to achieve Breakthrough Innovations. The constant determination to serve the feeders of the world by analyzing learnings from the past to best ourselves is what keeps us motivated.</p>
+            </article>
+        </section>
+    </div>
+</main>
+
+<section id="contact">
+  
+    <h1 class="section-header">Contact</h1>
+    
+    <div class="contact-wrapper">
+    
+    <!-- Left contact page --> 
+      
+      <form id="contact-form" class="form-horizontal" role="form">
+         
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+          </div>
+        </div>
+  
+        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+        
+        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+          <div class="alt-send-button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+          </div>
+        
+        </button>
+        
+      </form>
+      
+    <!-- Left contact page --> 
+      
+        <div class="direct-contact-container">
+  
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">PCCOE Pune</span></i></li>
+            
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+            
+          </ul>
+  
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-chrome" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>       
+          </ul>
+          <hr>
+  
+          <!-- <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>     -->
+  
+        </div>
+      
+    </div>
+    
+  </section>  
+    
+    
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+</body>
+</html>
